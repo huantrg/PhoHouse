@@ -1,0 +1,99 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+.nav {
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    color: white;
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFA500, rgb(28, 160, 45));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.cover {
+    border-radius: 0px 0px 15px 15px;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.nav-fostrap {
+    display: block;
+    margin-bottom: 15px 0;
+    background: #03A9F4;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 3px;
+}
+
+.PH {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel {
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+}
+
+.footer {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFA500, rgb(28, 160, 45));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color .2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    transition: color .2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180CB;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
